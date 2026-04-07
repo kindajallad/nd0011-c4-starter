@@ -1,0 +1,23 @@
+{
+  "name": "study-night",
+  "version": "1.0.0",
+  "description": "Preparing for Production Project",
+  "license": "MIT",
+  "author": "kinda",
+  "type": "module",
+  "scripts": {
+    "gulp": "gulp"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "chai": "^6.2.2",
+    "cypress": "^15.13.0",
+    "eslint": "^10.2.0",
+    "globals": "^17.4.0",
+    "gulp": "^5.0.1",
+    "gulp-cli": "^3.1.0",
+    "gulp-shell": "^0.8.0",
+    "mocha": "^11.7.5",
+    "parcel": "^2.16.4"
+  }
+}

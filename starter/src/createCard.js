@@ -30,13 +30,22 @@ const renderCardForm = (set) => {
   // Creates input for the term
   const termInput = createInput("termInput");
 
+  // Sets an attribute that will be used to select the form during testing
+  termInput.setAttribute("data-cy", "term");
+
   // Creates label for description
   const descriptionLabel = createLabel("Description", "descriptionInput");
   // Creates input for description
   const descriptionInput = createInput("descriptionInput");
 
+  // Sets an attribute that will be used to select the form during testing
+  descriptionInput.setAttribute("data-cy", "description");
+
   //Creates submit input
   const addCardBtn = createSubmitButton("Add Card");
+  // Sets an attribute that will be used to select the form during testing
+  addCardBtn.setAttribute("data-cy", "add");
+
   // Handle form submission ane errors
   cardForm.addEventListener("submit", (e) => {
     // Prevents forms default behavior
@@ -62,7 +71,7 @@ const renderCardForm = (set) => {
     termInput,
     descriptionLabel,
     descriptionInput,
-    addCardBtn
+    addCardBtn,
   );
 
   // Creates a container for the form elements and header
