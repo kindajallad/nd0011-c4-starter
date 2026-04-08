@@ -2,9 +2,9 @@
 /* Remove unused and unnecessary styling and selectors */
 /* Navigation styling */
 header {
-  width: 200px;
   width: 100px;
   cursor: pointer;
+  z-index: 1000;
 }
 
 header h1,
