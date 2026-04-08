@@ -23,7 +23,7 @@ describe("Add Card Form", () => {
   beforeEach(() => {
     cy.visit("http://localhost:1234/");
     cy.get("[data-cy = 'cards']").click();
-    cy.get(".cardSets").first().click();
+    cy.get("[data-cy = 'card-set']").first().click();
     cy.get("[data-cy = 'toggle_form']").click();
     cy.get("[data-cy = 'card_form']").should("be.visible");
   });

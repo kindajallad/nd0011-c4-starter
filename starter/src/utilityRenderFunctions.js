@@ -10,22 +10,22 @@
 
 // Create a general element with specified text
 const createElement = (elementType, text) => {
-  var element = document.createElement(elementType);
+  const element = document.createElement(elementType);
   element.textContent = text;
   return element;
 };
 
 //Creates images with alt
 const createImage = (url, alt) => {
-  var img = document.createElement("img");
+  const img = document.createElement("img");
   img.src = url;
-  img.alt == alt;
+  img.alt = alt;
   return img;
 };
 
 // Create a header element with specified text and data attribute
 const createHeader = (headerType, text, dataCy) => {
-  var header = document.createElement(headerType);
+  const header = document.createElement(headerType);
   header.textContent = text;
   header.setAttribute("data-cy", dataCy);
   return header;
@@ -45,7 +45,7 @@ const createToggleButton = (text, element) => {
 // Form Helper Functions
 // Helper function to create a label element
 const createLabel = (text, htmlFor) => {
-  var label = document.createElement("label");
+  const label = document.createElement("label");
   label.textContent = text;
   label.setAttribute("for", htmlFor);
   return label;
@@ -61,7 +61,7 @@ const createInput = (name) => {
 };
 
 const createSubmitButton = (value) => {
-  var submit = document.createElement("input");
+  const submit = document.createElement("input");
   submit.type = "submit";
   submit.value = value;
 

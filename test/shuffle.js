@@ -1,6 +1,6 @@
 /* global describe, it */
 import { expect } from "chai";
-import { shuffle } from "../src/shuffle.js";
+import { shuffle } from "../starter/src/shuffle.js";
 
 describe("shuffles the indexes", () => {
   it("should change array order", () => {

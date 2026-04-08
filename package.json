@@ -6,7 +6,9 @@
   "author": "kinda",
   "type": "module",
   "scripts": {
-    "gulp": "gulp"
+    "gulp": "gulp",
+    "cypress": "cypress run",
+    "test": "mocha"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
